@@ -556,14 +556,13 @@ margin-bottom: 9px;
 	align-items: flex-end;
 }
 
-.form-control{
+.footer-form-control{
 	display: flex;
 	flex-direction: column;
 	margin-right: 12px;
 }
 .subscribe-label{
 	margin-bottom: 20px;
-	padding-top: 23px;
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 1.14;
@@ -605,6 +604,7 @@ margin-bottom: 9px;
 	background-color: var(--accent-color);
 	cursor: pointer;
 	border: 0;
+	border-radius: 4px;
 	transition: box-shadow var(--transition-duration) var(--transition-timing-function);
 }
 .footer-icon-send{
@@ -638,7 +638,8 @@ box-shadow: var(--shadow);
 	top:50%;
 	left: 50%;
 	width: 528px;
-	min-height: 581px;
+	height: 581px;
+	padding: 40px;
 	border-radius: 4px;
 	box-shadow: var(--modal-shadow);
     transform: translate(-50%, -50%) scale(1);
@@ -669,10 +670,6 @@ box-shadow: var(--shadow);
 }
 
 /* Modal contact-form */
-.modal-container{
-	padding: 40px;
-}
-
 .contact-form-title{
 	margin-bottom: 12px;
 
@@ -684,7 +681,7 @@ box-shadow: var(--shadow);
 .contact-form-input{
 	display: block;
 	width: 100%;
-	padding: 12px 12px 12px 32px;
+	padding: 11px 12px 11px 42px;
 	border: 1px solid var(--contact-form-input-border);
 	border-radius: 4px;
 	outline: none;
@@ -698,8 +695,7 @@ box-shadow: var(--shadow);
 
 .contact-form-label{
 	display: block;
-    margin-bottom: 8px;
-	margin-top: 10px;
+    margin-bottom: 4px;
 	font-size: 12px;
 	line-height: 1.17;
 	letter-spacing: 0.01em;
@@ -708,7 +704,7 @@ box-shadow: var(--shadow);
 
 .form-control{
 	position: relative;
-	width: 100%;
+	margin-bottom: 10px;
 }
 .form-icon{
 	position: absolute;
@@ -837,7 +833,6 @@ box-shadow: var(--shadow);
 .contact-form-button{
 	min-width: 200px;
     height: 50px;
-	padding: 10px 52px;
 	display: block;
     margin: 0 auto;
 	
