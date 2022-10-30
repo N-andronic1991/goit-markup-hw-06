@@ -681,7 +681,7 @@ box-shadow: var(--shadow);
 .contact-form-input{
 	display: block;
 	width: 100%;
-	padding: 11px 12px 11px 42px;
+	padding: 10px 12px 10px 42px;
 	border: 1px solid var(--contact-form-input-border);
 	border-radius: 4px;
 	outline: none;
@@ -756,9 +756,9 @@ box-shadow: var(--shadow);
 	margin-bottom: 30px;
  }
  .checkbox-input{
-	appearance: none;
 	-webkit-appearance: none;
 	-moz-appearance: none;
+	appearance: none;
  }
  .checkbox-label{
 	display: block;
